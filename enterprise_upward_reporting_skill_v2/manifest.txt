@@ -1,0 +1,12 @@
+README.md
+SKILL.md
+SKILL_EN.md
+examples/example_input.md
+examples/example_output.md
+resources/output_template.md
+resources/structure_models.md
+resources/tone_lexicon.md
+schemas/io_schema.json
+scripts/README.md
+scripts/report_optimizer.py
+tests/eval_cases.md

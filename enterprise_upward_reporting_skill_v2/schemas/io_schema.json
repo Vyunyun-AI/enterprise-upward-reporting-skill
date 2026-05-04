@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Enterprise Upward Reporting Skill IO Schema",
+  "type": "object",
+  "properties": {
+    "report_type": {
+      "type": "string",
+      "enum": [
+        "status",
+        "rectification",
+        "inspection",
+        "auto"
+      ]
+    },
+    "audience": {
+      "type": "string"
+    },
+    "draft_text": {
+      "type": "string"
+    },
+    "kpis": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "draft_text"
+  ],
+  "additionalProperties": true
+}
